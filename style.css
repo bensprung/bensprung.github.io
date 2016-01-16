@@ -1,0 +1,119 @@
+body 
+{
+margin-top: 2%;
+margin-left: 5%;
+font-family: Sans-Serif;
+overflow-y:scroll; /* force a vert scroll bar */
+}
+
+.blog_entries /* '#' goes with id, '.' goes with class*/
+{
+max-width: 800px;
+text-align:justify;
+}
+
+.small{
+font-size:80%;
+}
+
+h1{
+font-size:182%; /* renders 24 px */
+font-weight:bold;
+font-style:italic;
+}
+
+h1 a, h1 a:active, h1:visited {
+    color:black;
+    text-decoration:none;
+}
+
+h1 a:hover {
+    color:gray;
+    text-decoration:none;
+}
+
+h2{
+    font-size:138.5%; /* renders 18px */
+    font-weight:bold;
+}
+
+h2 a, h2 a:active, h2 a:visited {
+    color:black;
+    text-decoration:none;
+}
+
+h2 a:hover {
+    color:gray;
+    text-decoration:none;
+}
+
+h3{
+    font-weight:bold;
+    /*padding-top:1em;*/
+}
+
+ul{ 
+    list-style: circle; 
+    margin-left:2%;
+}
+
+strong
+{
+font-weight:bold;
+}
+
+table.t1 {
+    border-collapse: collapse;
+}
+.t1 td {
+    border: 2px solid #666;
+    padding: 2px;
+}
+.t1 th {
+    padding: 2px;
+    background: #ccf;
+    border: 2px solid #666;
+}
+
+table.t2 {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 800px;
+}
+.t2 td {
+    border: 2px solid #666;
+    padding: 2px;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    font-size:75%;
+}
+.t2 th {
+    padding: 2px;
+    background: #ccf;
+    border: 2px solid #666;
+}
+
+p
+{
+margin-bottom:1em;
+}
+
+/* no space between para and following list */
+p + ul {
+    margin-top: -1em;
+}
+
+p.box
+{
+border-style: solid;
+border-width: thin;
+border-color:gray;
+padding: 2px;
+}
+
+#footer
+{
+/*background-color:yellow;*/
+}
+

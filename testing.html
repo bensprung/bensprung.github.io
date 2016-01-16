@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>bloggy blog blog</title>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+WHAT'S THIS?
+<div id="banner"> 
+<h1>
+<a href="toc.html">MAH BLOGGEH!!!</a>      
+</h1>
+</div>
+
+<div id="navbar"> 
+--------------------------------------------------------------
+<br>
+<br>
+--------------------------------------------------------------
+</div>
+
+<h2 id = "testing"> <a class="reversible" data-div="testing_text" href="testing.html">I ama araisn</a></h2><h3>2014-08-02</h3><div id="testing_text" class="blog_entries" ><p>asdglasdjgadsfgasdfgaf
+asdasdfldaksjfldsakjf dsafdksaf dsal;kfjds adsaf</p><p>Test para</p><p>Now let's test a link. <a href ="www.google.com">this will link to google.com</a></p></div>
+
+<div id="footer">
+--------------------------------------------------------------
+<p>
+<span class = "small">&copy; 2014 by the author </span>
+</p>
+</div>
+
+<script type="text/javascript" language="JavaScript"><!--
+window.onload=function() {
+  var links = document.querySelectorAll(".reversible");
+  for (var i=0;i<links.length;i++) {
+    links[i].onclick=ReverseDisplay;
+  }
+}
+function ReverseDisplay() {
+  var divId=this.getAttribute("data-div"), div=document.getElementById(divId);
+  div.style.display = div.style.display=="none"?"block":"none"; 
+  //div.style.display = div.style.display=="block"?"none":"block"; 
+  return false;
+}
+//--></script>
+
+</body>
+</html>
