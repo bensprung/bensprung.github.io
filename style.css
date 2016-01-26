@@ -10,6 +10,7 @@ overflow-y:scroll; /* force a vert scroll bar */
 {
 max-width: 800px;
 text-align:justify;
+padding-bottom: 200px;
 }
 
 .small{
